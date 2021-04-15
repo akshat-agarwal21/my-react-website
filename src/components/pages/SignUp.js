@@ -11,9 +11,11 @@ Email: ${inputs.email}`);
   }
   const {inputs, handleInputChange, handleSubmit} = useSignUpForm({firstName: '', lastName: '', email: '', password1: '', password2: ''}, signup);
   return (
+    
     <div className='sign-up'>
      
-            <form onSubmit={handleSubmit} autoComplete="off">
+     
+            <form className='sign-up-form' onSubmit={handleSubmit} autoComplete="off">
             <div className="field">
                 <label className="label has-text-centered">First Name </label>
                 
@@ -43,10 +45,11 @@ Email: ${inputs.email}`);
                   <input className="input" type="password" name="password2" onChange={handleInputChange} value={inputs.password2}/><br/>
               
               </div>
-              <button className="button is-block is-fullwidth is-success" type="submit">Sign Up</button>
+              <button className="field" type="submit">Sign Up</button>
             </form>
             
             </div>
+           
   )
 }
 

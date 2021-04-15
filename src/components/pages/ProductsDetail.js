@@ -8,7 +8,8 @@ function ProductsDetail({match}) {
 
     return (
         <div>
-            <h1>{product.type}</h1>
+            <h1 className='details'>{product.type}</h1>
+            
             {product.content.map((paragraph,key)=> (
                 <p key ={key}>
                     {paragraph}

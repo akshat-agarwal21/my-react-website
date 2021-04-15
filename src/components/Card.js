@@ -4,7 +4,7 @@ import CardItems from './CardItems';
 import image1 from '../images/img-9.jpg'
 import image2 from '../images/img-2.jpg'
 import image3 from '../images/img-3.jpg'
-import image4 from '../images/img-4.jpg'
+import image7 from '../images/img-7.jpg'
 import image8 from '../images/img-8.jpg'
 function Card() {
   return (
@@ -34,7 +34,7 @@ function Card() {
               path='/services'
             />
             <CardItems
-              src={image4}
+              src={image7}
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
               path='/products'
